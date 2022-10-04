@@ -1,0 +1,45 @@
+{
+  "dronesAssigned": [
+    {
+      "id": 1,
+      "name": "Drone#1",
+      "maxWeight": 100
+    },
+    {
+      "id": 2,
+      "name": "Drone#2",
+      "maxWeight": 75
+    },
+    {
+      "id": 3,
+      "name": "Drone#3",
+      "maxWeight": 50
+    }
+  ],
+  "scheduledDestinations": [
+    {
+      "id": 1,
+      "locationCode": "1",
+      "location": "Location#1",
+      "totalWeightToDeliver": 375
+    },
+    {
+      "id": 2,
+      "locationCode": "2",
+      "location": "Location#2",
+      "totalWeightToDeliver": 225
+    },
+    {
+      "id": 3,
+      "locationCode": "3",
+      "location": "Location#3",
+      "totalWeightToDeliver": 100
+    },
+    {
+      "id": 4,
+      "locationCode": "4",
+      "location": "Location#4",
+      "totalWeightToDeliver": 500
+    }
+  ]
+}

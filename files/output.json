@@ -1,0 +1,46 @@
+{
+  "totalCost": 100,
+  "distribution": [
+    {
+      "droneAssigned": "Drone#1",
+      "trips": [
+        {
+          "tripNumber": 1,
+          "locations": [
+            {
+              "location": "Location#1",
+              "weightToCarry": 75
+            },
+            {
+              "location": "Location#2",
+              "weightToCarry": 25
+            }
+          ]
+        },
+        {
+          "tripNumber": 2,
+          "locations": [
+            {
+              "location": "Location#3",
+              "weightToCarry": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "droneAssigned": "Drone#2",
+      "trips": [
+        {
+          "tripNumber": 1,
+          "locations": [
+            {
+              "location": "Location#3",
+              "weightToCarry": 75
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
